@@ -1,0 +1,58 @@
+-- look at the dataset
+SELECT *
+FROM FISH_INFO
+
+-- the average length of the caught fish
+SELECT ROUND(AVG(IFNULL(LENGTH,10)),2) AS AVERAGE_LENGTH
+FROM FISH_INFO
+
+-- the annual fish catch count grouped by year
+SELECT COUNT(ID) AS FISH_COUNT
+FROM FISH_INFO 
+WHERE YEAR(TIME) = 2021;
+
+-- the top 10 largest fish by length
+SELECT ID, LENGTH
+FROM FISH_INFO
+ORDER BY LENGTH DESC, ID ASC LIMIT 10;
+
+-- the length of the largest fish caught
+SELECT CONCAT(MAX(LENGTH),'cm') AS MAX_LENGTH 
+FROM FISH_INFO;
+
+-- the count of fish caught for each species
+SELECT 
+    COUNT(ID) AS FISH_COUNT,
+    FISH_NAME 
+FROM FISH_INFO
+    JOIN FISH_NAME_INFO 
+    USING(FISH_TYPE)
+GROUP BY FISH_NAME	
+ORDER BY FISH_COUNT DESC;
+
+--  the number of fish caught per month
+SELECT 
+    COUNT(ID) FISH_COUNT, 
+    MONTH(TIME) MONTH 
+FROM FISH_INFO
+GROUP BY MONTH
+ORDER BY MONTH ;
+
+-- the total number of a specific fish species caught
+SELECT COUNT(*) FISH_COUNT
+FROM FISH_INFO INNER JOIN FISH_NAME_INFO 
+USING(FISH_TYPE)
+WHERE FISH_NAME IN ('BASS', 'SNAPPER' );
+
+-- the largest fish for each species
+WITH MAX_LENGTH_BY_TYPE AS (
+    SELECT FISH_TYPE, FISH_NAME, MAX(LENGTH) AS LENGTH
+    FROM FISH_INFO NATURAL JOIN FISH_NAME_INFO
+    GROUP BY FISH_TYPE, FISH_NAME)
+SELECT
+    ID,
+    FISH_NAME,
+    LENGTH
+FROM
+    FISH_INFO NATURAL JOIN MAX_LENGTH_BY_TYPE;
+

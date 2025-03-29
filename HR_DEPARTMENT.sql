@@ -1,0 +1,41 @@
+--look at the dataset
+SELECT *
+FROM HR_DEPARTMENT
+
+-- employee information based on specific conditions
+WITH T1 AS(
+    SELECT EMP_NO, SUM(SCORE) SCORE
+    FROM HR_GRADE
+    GROUP BY EMP_NO
+)
+SELECT T1.SCORE SCORE, E.EMP_NO EMP_NO, EMP_NAME, POSITION, EMAIL
+FROM HR_EMPLOYEES E
+JOIN T1 USING(EMP_NO)
+WHERE SCORE = (SELECT MAX(SCORE) FROM T1)
+ORDER BY SCORE DESC;
+
+-- the average annual salary by department
+SELECT A.DEPT_ID
+      ,A.DEPT_NAME_EN
+      ,ROUND(AVG(B.SAL),0) AVG_SAL
+FROM HR_DEPARTMENT A 
+    JOIN HR_EMPLOYEES B 
+    ON A.DEPT_ID = B.DEPT_ID
+GROUP BY A.DEPT_ID
+ORDER BY AVG_SAL DESC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

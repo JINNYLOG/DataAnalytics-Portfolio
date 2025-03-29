@@ -2,6 +2,11 @@
 SELECT *
 FROM CAR_RENTAL_COMPANY_CAR
 
+-- Calculate the average daily rental fee
+SELECT ROUND(AVG(DAILY_FEE)) AS AVERAGE_FEE
+FROM CAR_RENTAL_COMPANY_CAR
+WHERE CAR_TYPE = 'SUV';
+    
 -- List of cars with a specific option included
 SELECT *
 FROM CAR_RENTAL_COMPANY_CAR

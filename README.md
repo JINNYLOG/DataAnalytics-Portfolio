@@ -28,32 +28,32 @@ SQL: HackerRank, Analyst Builder, Programmers
 Python: Kaggle Datasets
 
 📍SQL Projects
-1. ANIMAL_INS </br> 
+1. ANIMAL_INS </br> (https://github.com/JINNYLOG/DataAnalysis-Projects/blob/main/ANIMAL_INS.sql)
 Platform: HackerRank</br>
 Tools: MySQL</br>
 Skills: Left Join, Subqueries, Union, NULL Handling, Aggregation, Date & Time Manipulation, CTE</br>
 Description: Analyzed animal intake and outcome data from a shelter using SQL to uncover trends in adoption timing, duration of stay, and neutering status. Applied filtering, joins, subqueries, and CTEs to extract insights supporting operational decisions and animal welfare. </br>
 
-2. CAR_RENTAL – Rental Operations & Revenue Readiness (SQL) </br>
+2. CAR_RENTAL – Rental Operations & Revenue Readiness (SQL) </br> (https://github.com/JINNYLOG/DataAnalysis-Projects/blob/main/CAR_RENTAL_COMPANY_CAR.sql)
 Platform: SQL practice (MySQL) </br>
 Tools: MySQL </br>
 Skills: Aggregation, Date & Time Functions, Conditional Logic(IF), Subqueries, Text Search(LIKE), Window-ready Grouping, Case-based Classification </br>
 Description: Analyzed a car rental company’s fleet and rental history data using SQL to calculate average daily fees, classify rentals into long-term vs. short-term, track option availability, monitor vehicle availability status, and identify high-demand cars by month. The analysis supports fleet utilization optimization, dynamic pricing strategies, inventory planning, and peak season operational management.
 
-3. FOOD_PRODUCT.sql
+3. FOOD_PRODUCT.sql (https://github.com/JINNYLOG/DataAnalysis-Projects/blob/main/FOOD_PRODUCT.sql)
 Platform: SQL practice (MySQL) </br>
 Tools: MySQL  </br>
 Skills: Skills: Aggregation, Date & Time Functions, Conditional Logic (IF / CASE), Subqueries, Text Search (LIKE), Window-ready Grouping, Case-based Classification </br>
 Description: Analyzed a food company’s datasets including product information, factory and warehouse details, and order history using SQL to identify regional facility distribution, determine top-priced products by category, classify order fulfillment statuses, and calculate monthly total sales per product. The analysis provides insights for supply chain optimization, inventory management, and data-driven sales strategies. </br>
 
-4. Fish_information.sql
+4. Fish_information.sql (https://github.com/JINNYLOG/DataAnalysis-Projects/blob/main/Fish_information.sql)
 Platform: SQL Practice </br>
 Tools: MySQL</br>
 Skills: Aggregation, Date & Time Functions, Conditional Logic (IF / CASE), Subqueries, Text Search (LIKE), Joins, Window-ready Grouping, Case-based Classification </br>
 Description: Analyzed fishery datasets containing catch records and species information using SQL to calculate average fish length, track annual and monthly catch volumes, identify the largest fish per species, and count total catches by type.
 The insights support resource management, seasonal fishing strategies, and sustainable fishery planning.
 
-5. IBM-HR-Analyst-Junior
+5. IBM-HR-Analyst-Junior</br> (https://github.com/JINNYLOG/DataAnalysis-Projects/blob/main/IBM-HR-Analyst-Junior.ipynb)
 Platform: Kaggle Notebook (IBM HR Analytics Employee Attrition Dataset) </br>
 Tool: Python (Pandas, Scikit-learn, XGBoost, SHAP, Matplotlib, Seaborn) </br>
 Skills: Data Cleaning, Feature Engineering, Label Encoding, Feature Selection (RFE), Class Imbalance Handling, Model Training (XGBoost), Cross Validation, SHAP Model Interpretability, Performance Evaluation (Accuracy, Recall, F1-score) </br>

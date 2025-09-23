@@ -28,7 +28,7 @@ SQL: HackerRank, Analyst Builder, Programmers
 Python: Kaggle Datasets
 
 📍SQL Projects
-1. ANIMAL_INS </br>
+1. ANIMAL_INS </br> 
 Platform: HackerRank</br>
 Tools: MySQL</br>
 Skills: Left Join, Subqueries, Union, NULL Handling, Aggregation, Date & Time Manipulation, CTE</br>
@@ -68,7 +68,7 @@ Lower Monthly Income correlates with higher likelihood of leaving</br>
 Shorter tenure with current manager also increases attrition probability </br>
 These insights help HR teams proactively identify high-risk employees, improve retention strategies, and build data-driven employee management policies. </br>
 
-6. IBM-HR-Analyst-Last
+6. IBM-HR-Analyst-Last(https://github.com/JINNYLOG/DataAnalysis-Projects/blob/main/IBM-HR-Analyst-Last.ipynb)
 Platform: Kaggle Notebook (IBM HR Analytics Employee Attrition Dataset) </br>
 Tool: Python (Pandas, Scikit-learn, XGBoost, LightGBM, CatBoost, SHAP, Matplotlib, Seaborn) </br>
 Skills: Data Cleaning, Feature Engineering, Label Encoding, Class Imbalance Handling, Feature Selection (RFE), Exploratory Data Analysis (EDA), Model Training (XGBoost, Logistic Regression, Random Forest, LightGBM, CatBoost), Cross Validation, Performance Evaluation (Accuracy, Recall, AUC, F1-score), SHAP Model Interpretability </br>

@@ -16,7 +16,9 @@
 
 👋 Let’s Connect! I love networking and collaborating with like-minded professionals. Feel free to reach out at [beebep@naver.com](mailto:beebep@naver.com).
 
-👩‍💻Data Sources SQL: HackerRank, Analyst Builder, Programmers Python: Kaggle Datasets
+👩‍💻Data Sources 
+- SQL: HackerRank, Analyst Builder, Programmers 
+- Python: Kaggle Datasets
 
 
 ## 📌SQL Projects

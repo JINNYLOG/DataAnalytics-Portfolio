@@ -18,16 +18,6 @@
 
 👩‍💻Data Sources SQL: HackerRank, Analyst Builder, Programmers Python: Kaggle Datasets
 
-**Contents**
-> [📌SQL Projects](##📌SQL-Projects)
->>[1. ANIMAL_INS](###1.ANIMAL_INS)
->>[2. CAR_RENTAL](###2.CAR_RENTAL)
->>[3. FOOD_PRODUCT](###3.FOOD_PRODUCT)
->>[4. Fish_Information](###4.Fish_Information)
-
-> [📌PYTHON Projects](##📌PYTHON-Projects)
->>[5. IBM-HR-Analyst-Junior](###5.IBM-HR-Analyst-Junior)
->>[6. IBM-HR-Analyst-Last](###6.IBM-HR-Analyst-Last)
 
 ## 📌SQL Projects
 ### **1. [ANIMAL_INS](https://github.com/JINNYLOG/DataAnalysis-Projects/blob/main/ANIMAL_INS.sql)**

@@ -3,6 +3,8 @@
 </br>
 [Excel Project Dataset_AlexTheAnalyst.xlsx](https://github.com/user-attachments/files/22503919/Excel.Project.Dataset_AlexTheAnalyst.xlsx)
 </br>
+
+
 **1. Hypotheses</br>**
 
 - Hypothesis 1: Higher income leads to an increase in bicycle purchase rates.</br>
